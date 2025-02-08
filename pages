@@ -1,1 +1,57 @@
+import React from "react";
+
+const ChatbotPage = () => {
+  return (
+    <div style={styles.container}>
+      <div style={styles.chatContainer}>
+        <div style={styles.header}>🖤 Domina Chat: BDSM Experience 🖤</div>
+        <iframe
+          src="https://typebot.co/my-typebot-ucn1hxl" // Substitua com o link do seu Typebot
+          style={styles.iframe}
+          title="Typebot Chat"
+          allow="microphone; camera"
+        ></iframe>
+      </div>
+    </div>
+  );
+};
+
+const styles = {
+  container: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    height: "100vh",
+    backgroundColor: "#1a1a1a", // Fundo escuro
+    color: "#e1e1e1", // Texto claro
+    fontFamily: "'Arial', sans-serif",
+  },
+  chatContainer: {
+    width: "90%",
+    maxWidth: "600px",
+    height: "80%",
+    backgroundColor: "#292929", // Fundo do container
+    borderRadius: "15px",
+    boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.3)",
+    overflow: "hidden",
+    border: "2px solid #ff4081", // Borda temática BDSM
+  },
+  header: {
+    backgroundColor: "#ff4081", // Fundo rosa dominante
+    color: "#1a1a1a", // Texto escuro para contraste
+    textAlign: "center",
+    padding: "10px 0",
+    fontWeight: "bold",
+    fontSize: "1.2rem",
+    textTransform: "uppercase",
+    borderBottom: "2px solid #e13570",
+  },
+  iframe: {
+    width: "100%",
+    height: "100%",
+    border: "none",
+  },
+};
+
+export default ChatbotPage;
 
